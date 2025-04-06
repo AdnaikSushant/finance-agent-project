@@ -5,7 +5,7 @@ from phi.tools.yfinance import YFinanceTools
 import os
 
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "GROQ_API_KEY"
 
 agent=Agent(
     model = Groq(id='llama3-8b-8192',api_key=os.environ["GROQ_API_KEY"]),
